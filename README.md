@@ -7,8 +7,8 @@ Para realizar esta web se utilizó:
 
 
   Vista desktop:
- ![alt text](https://github.com/CindyMendoza/LabCar/blob/master/assets/vistas/desktop.png)
+ ![alt text](https://github.com/CindyMendoza/Portafolio-Materialize/blob/master/img/desktop.png)
 
  Vista mobile:
 
- ![alt text](https://github.com/CindyMendoza/LabCar/blob/master/assets/vistas/mobile.png)
+ ![alt text](https://github.com/CindyMendoza/Portafolio-Materialize/blob/master/img/mobile.png)
