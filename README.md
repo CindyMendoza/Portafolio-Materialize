@@ -1,4 +1,4 @@
-# Portfolio Materialize
+# Portfolio usando Materialize
 
 Maquetado web responsive cuenta con vista mobile y desktop.
 Para realizar esta web se utilizó:
