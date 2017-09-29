@@ -42,3 +42,55 @@ header h1 {
 #about{
   padding: 100px;
 }
+/*portafolio*/
+.desk-book{
+  background-image: url(../img/desk-book.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.consola{
+  background-image: url(../img/consola.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.code{
+  background-image: url(../img/code.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.girl-code{
+  background-image: url(../img/girl-code.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.desk-code{
+  background-image: url(../img/desk-code.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.img-1{
+  background-image: url(../img/img-1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+#porta{
+  padding: 50px;
+}
