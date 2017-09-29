@@ -12,9 +12,15 @@
       <title>Portafolio usando Materialize</title>
     </head>
     <body>
-      <header class="background flex-column">
-        <h1 class="white-text">CINDY MENDOZA</h1>
-        <p class="perfil white">WEB AND MOBILE DEVELOPER</p>
+      <header class="">
+        <div class="hide-on-small-only background flex-column">
+          <h1 class="white-text">CINDY MENDOZA</h1>
+          <p class="perfil white">WEB AND MOBILE DEVELOPER</p>
+        </div>
+        <div id="mo" class="center-align hide-on-med-and-up backgroundm flex-column">
+          <h1 class="white-text">CINDY MENDOZA</h1>
+          <p class="white">WEB AND MOBILE DEVELOPER</p>
+        </div>
       </header>
       <section id="about" class="grey lighten-2 flex-column">
         <h4>ABOUT ME</h4>
@@ -22,7 +28,7 @@
         <hr style="width: 7%;">
         <br>
         <div class="row">
-          <div class="col s4 flex-column">
+          <div class="col s12 m4 flex-column">
             <p>STORY</p>
             <br>
             <div class="">
@@ -31,7 +37,7 @@
               <p>When she’s not busy sharing cheerios from the floor with her toddler, she enjoys obsessing over fine details and trying to find the perfect balance between work life and mom life.</p>
             </div>
           </div>
-          <div class="col s4 flex-column">
+          <div class="col s12 m4 flex-column">
             <p>PROFILE</p>
             <br>
             <div class="card blue-grey flex-column">
@@ -45,16 +51,14 @@
              </div>
             </div>
           </div>
-          <div class="col s4 flex-column">
+          <div class="col s12 m4 flex-column">
             <p>CURRENT JOBS</p>
             <br>
-            <div class="">
-              <div class="collection">
-                  <a href="#!" class="black-text collection-item">Designer</a>
-                  <a href="#!" class="black-text collection-item">Developer</a>
-                  <a href="#!" class="black-text collection-item">Video Editor</a>
-                  <a href="#!" class="black-text collection-item">Support Asst.</a>
-              </div>
+            <div class="collection" style="width:100%;">
+                <a href="#!" class="black-text collection-item">Designer</a>
+                <a href="#!" class="black-text collection-item">Developer</a>
+                <a href="#!" class="black-text collection-item">Video Editor</a>
+                <a href="#!" class="black-text collection-item">Support Asst.</a>
             </div>
           </div>
         </div>
@@ -64,17 +68,18 @@
         <p>MY LATEST PROJECTS</p>
         <hr style="width: 7%;">
         <br>
-        <div class=" flex-row">
-            <div class="materialboxed desk-book"></div>
-            <div class="materialboxed consola"></div>
-            <div class="materialboxed code"></div>
-        </div>
-        <div class="flex-row">
-           <div class="materialboxed girl-code"></div>
-           <div class="materialboxed desk-code"></div>
-           <div class="materialboxed img-1"></div>
-        </div>
-
+          <div class="">
+            <div class="flex-row">
+                <div class="materialboxed deta desk-book"></div>
+                <div class="materialboxed deta consola"></div>
+                <div class="materialboxed deta code"></div>
+            </div>
+            <div class="flex-row">
+               <div class="materialboxed deta girl-code"></div>
+               <div class="materialboxed deta desk-code"></div>
+               <div class="materialboxed deta img-1"></div>
+            </div>
+          </div>
       </section>
       <section id="contac" class="grey lighten-2 flex-column">
         <h4>CONTAC</h4>
@@ -82,26 +87,26 @@
         <hr style="width: 7%;">
         <br>
         <div class="row">
-          <form class="col s6">
-              <div class="input-field col s6">
+          <form class="col s12 m6">
+              <div class="input-field col s6 m6">
                 <input id="first-name" type="text" class="validate">
                 <label for="first-name">First Name</label>
               </div>
-              <div class="input-field col s6">
+              <div class="input-field col s6 m6">
                 <input id="last-name" type="text" class="validate">
                 <label for="last-name">Last Name</label>
               </div>
-              <div class="input-field col s12">
+              <div class="input-field col s12 m12">
                 <input id="e-mail" type="text" class="validate">
                 <label for="e-mail">E-mail</label>
               </div>
-              <div class="input-field col s12">
+              <div class="input-field col s12 m12">
                 <textarea id="textarea1" class="materialize-textarea"></textarea>
                 <label for="textarea1">Your Messsage</label>
               </div>
               <a class="waves-effect waves-light btn">button</a>
           </form>
-          <div class="col s6">
+          <div id="contacdet" class="col s12 m6">
             <p>ADDRESS</p>
             <p>Nr. 6 21 Awesome Stree, London, UK</p>
             <br>
@@ -114,12 +119,12 @@
         </div>
       </section>
       <footer class="blue-grey white-text flex-row"style="justify-content:space-between;!important">
-          <div class="col s6">
+          <p>
             &copy;2014 Copyright text
-          </div>
-          <div class="col s6">
+          </p>
+          <p>
             minombre@hotmail.com
-          </div>
+          </p>
       </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

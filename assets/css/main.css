@@ -1,9 +1,5 @@
 @font-face {
     src: url(..fonts/roboto/Roboto-Bold.woff);
-    /*src: url(..fonts/roboto/Roboto-Light.woff);*/
-    /*src: url(..fonts/roboto/Roboto-Medium.woff);*/
-    /*src: url(..fonts/roboto/Roboto-Regular.woff);*/
-    /*src: url(..fonts/roboto/Roboto-Thin.woff);*/
 }
 body, body *{
 font-family:"Roboto-Bold";
@@ -35,56 +31,50 @@ header h1 {
   width: auto;
   height: 400px;
 }
+.backgroundm{
+  background-image: url(../img/bg.jpg);
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 400px;
+}
 .perfil{
   padding: 5px;
 }
+#mo{
+  padding:25% 0;
+}
+
 /*about me*/
 #about{
   padding: 100px;
 }
+@media only screen and (max-width: 600px) {
+  #about{
+    padding: 100px 20px;
+  }
+}
 /*portafolio*/
 .desk-book{
   background-image: url(../img/desk-book.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  width: 200px;
-  height: 150px;
 }
 .consola{
   background-image: url(../img/consola.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  width: 200px;
-  height: 150px;
 }
 .code{
   background-image: url(../img/code.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  width: 200px;
-  height: 150px;
 }
 .girl-code{
   background-image: url(../img/girl-code.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  width: 200px;
-  height: 150px;
 }
 .desk-code{
   background-image: url(../img/desk-code.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  width: 200px;
-  height: 150px;
 }
 .img-1{
   background-image: url(../img/img-1.png);
+}
+.deta{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -94,9 +84,26 @@ header h1 {
 #porta{
   padding: 50px;
 }
+@media only screen and (max-width: 600px) {
+  #porta{
+    padding: 100px 10px;
+  }
+  .deta{
+    width: 120px;
+    height: 80px;
+  }
+}
 /*contac*/
 #contac{
   padding: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #contac{
+    padding: 100px 20px;
+  }
+  #contacdet{
+    padding: 50px 20px;
+  }
 }
 /*footer*/
 footer{
