@@ -8,6 +8,5 @@ Para realizar esta web se utilizó:
 
   Vista desktop:
  ![alt text](https://github.com/CindyMendoza/Portafolio-Materialize/blob/master/assets/img/desktop.png)
-
  Vista mobile:
  ![alt text](https://github.com/CindyMendoza/Portafolio-Materialize/blob/master/assets/img/mobile.png)
